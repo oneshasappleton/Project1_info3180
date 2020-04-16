@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 5rem;
+    background-color: rgb(235, 243, 250);
+}
+
+i {
+    margin-right: 0.5rem;
+}
+
+.card-form {
+    border-top: 0.5rem solid rgb(74, 144, 226);
+    /* height: 20rem; */
+}
+
+/* Should only apply when screen is big enough */
+@media (min-width: 1000px) {
+    .profiles-list-img {
+        height: 15.469rem;
+    }
+}
+
+.profiles-list-img > img {
+    width: 100%;
+    height: 100%;
+}
+
+.detailed-profile {
+    max-width: 75%;
+}
+
+.profile-desc {
+    color: #8f8c8c;
+    font-weight: 500;   
+}
+
+.bg-primary{
+    background-color: rgb(74, 144, 226) !important;
+}
+
+.pg-header {
+    margin-bottom: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+.view-p-btn {
+    background-color: #11d03d;
+    border-color: #11d03d;
+}
+
+.small-pic{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.profile-cmnds {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-cmnds > .btn {
+    width: 15rem;
+}
+
+#bio {
+    margin-top: 1.2rem;
+}
+
+/* Bootstrap modifications */
+.row {
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.shadow-r {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+}
